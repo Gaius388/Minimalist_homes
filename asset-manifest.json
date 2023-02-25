@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Minimalist_homes/static/css/main.b0d6081d.css",
+    "main.js": "/Minimalist_homes/static/js/main.099b98ad.js",
+    "static/media/background_image.png": "/Minimalist_homes/static/media/background_image.f47204d0cd4ccece6ab4.png",
+    "static/media/media bg-cover.png": "/Minimalist_homes/static/media/media bg-cover.00806ea366a50bfb44d2.png",
+    "static/media/lounge_img.png": "/Minimalist_homes/static/media/lounge_img.23b1f87080615311e420.png",
+    "static/media/Rectangle 1.png": "/Minimalist_homes/static/media/Rectangle 1.69f8fe946360ac86aa5a.png",
+    "static/media/flexible4.png": "/Minimalist_homes/static/media/flexible4.438051b5eedcccee42c1.png",
+    "static/media/flexible2.png": "/Minimalist_homes/static/media/flexible2.8bf2a216bb701a38a36b.png",
+    "static/media/flexible1.png": "/Minimalist_homes/static/media/flexible1.7f9988d60d6669024855.png",
+    "static/media/flexible3.png": "/Minimalist_homes/static/media/flexible3.c2959282ff6d7dcd9db6.png",
+    "static/media/Vector (2).svg": "/Minimalist_homes/static/media/Vector (2).b4d82bc47abde77b0db3e8309b48f490.svg",
+    "static/media/Vector.svg": "/Minimalist_homes/static/media/Vector.d890f44cee7981337aa50575d31db255.svg",
+    "static/media/Vector (5).svg": "/Minimalist_homes/static/media/Vector (5).fb9119b2e6bf5ac26c2d47a34b258ebb.svg",
+    "static/media/Vector (1).svg": "/Minimalist_homes/static/media/Vector (1).405565f87dc5590abae01ed706647e13.svg",
+    "static/media/Vector (4).svg": "/Minimalist_homes/static/media/Vector (4).987432abb619ad56c63d6509f26d4345.svg",
+    "static/media/ellipse-bg.svg": "/Minimalist_homes/static/media/ellipse-bg.804a5c6ba76820b28f66.svg",
+    "index.html": "/Minimalist_homes/index.html",
+    "static/media/Vector (3).svg": "/Minimalist_homes/static/media/Vector (3).b2bb9fc7c834ca4bccdbb2b3c8418ea2.svg",
+    "static/media/play_btn.svg": "/Minimalist_homes/static/media/play_btn.af354122d4002562643133212099ece5.svg",
+    "main.b0d6081d.css.map": "/Minimalist_homes/static/css/main.b0d6081d.css.map",
+    "main.099b98ad.js.map": "/Minimalist_homes/static/js/main.099b98ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0d6081d.css",
+    "static/js/main.099b98ad.js"
+  ]
+}
