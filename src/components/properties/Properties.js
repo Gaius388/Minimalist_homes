@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import useFetch from "../useFetch";
 import Property from "../homepage/Property";
 
 const Properties = () => {
-  const { properties, setProperties } = useFetch();
-  const [apartment, setApartment] = useState(properties);
+  const { properties, loading } = useFetch();
+  const [apartment, setApartment] = useState([]);
+
+  useEffect(() => {
+    if (loading) return;
+    setApartment(properties);
+  }, [loading]);
 
   const filterItems = (category) => {
     if (category === "All") {
@@ -23,7 +28,7 @@ const Properties = () => {
       </h2>
       <nav className="list-none uppercase flex items-center gap-6 py-8 pl-4 md:text-xl">
         <li
-          className="cursor-pointer hover:bg-orange-300 px-2 py-1 rounded-md"
+          className="cursor-pointer hover:bg-[#797ba6] px-2 py-1 rounded-md "
           onClick={(e) => {
             filterItems(e.target.innerHTML);
           }}
@@ -31,7 +36,7 @@ const Properties = () => {
           All
         </li>
         <li
-          className="cursor-pointer hover:bg-orange-300 px-2 py-1 rounded-md"
+          className="cursor-pointer hover:bg-[#797ba6] px-2 py-1 rounded-md"
           onClick={() => {
             filterItems("condo");
           }}
@@ -39,7 +44,7 @@ const Properties = () => {
           condo apartment
         </li>
         <li
-          className="cursor-pointer hover:bg-orange-300 px-2 py-1 rounded-md"
+          className="cursor-pointer hover:bg-[#797ba6] px-2 py-1 rounded-md"
           onClick={() => {
             filterItems("single_family");
           }}
@@ -47,7 +52,7 @@ const Properties = () => {
           single family apartment
         </li>
         <li
-          className="cursor-pointer hover:bg-orange-300 px-2 py-1 rounded-md"
+          className="cursor-pointer hover:bg-[#797ba6] px-2 py-1 rounded-md"
           onClick={() => {
             filterItems("multi_family");
           }}
@@ -57,7 +62,6 @@ const Properties = () => {
       </nav>
       <div className="flex flex-wrap md:flex-row gap-6 justify-center items-center px-8 py-8">
         {apartment.map((property) => {
-          console.log(apartment);
           return <Property key={property.property_id} {...property} />;
         })}
       </div>
