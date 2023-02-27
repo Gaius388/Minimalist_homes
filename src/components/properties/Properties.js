@@ -23,12 +23,12 @@ const Properties = () => {
   };
   return (
     <div>
-      <h2 className="uppercase md:text-3xl md:text-left text-center text-2xl font-bold pl-4 mt-2">
+      <h2 className="uppercase md:text-3xl md:text-left text-center text-xl font-bold pl-4 mt-2">
         Properties available
       </h2>
-      <nav className="list-none uppercase flex items-center gap-6 py-8 pl-4 md:text-xl">
+      <nav className="list-none uppercase flex items-center gap-2 md:gap-6 py-8 pl-1 md:pl-4 md:text-xl">
         <li
-          className="cursor-pointer hover:bg-[#797ba6] px-2 py-1 rounded-md "
+          className="cursor-pointer hover:bg-[#797ba6] md:text-xl text-xs py-1 rounded-md "
           onClick={(e) => {
             filterItems(e.target.innerHTML);
           }}
@@ -36,7 +36,7 @@ const Properties = () => {
           All
         </li>
         <li
-          className="cursor-pointer hover:bg-[#797ba6] px-2 py-1 rounded-md"
+          className="cursor-pointer hover:bg-[#797ba6] md:text-xl text-xs py-1 rounded-md"
           onClick={() => {
             filterItems("condo");
           }}
@@ -44,7 +44,7 @@ const Properties = () => {
           condo apartment
         </li>
         <li
-          className="cursor-pointer hover:bg-[#797ba6] px-2 py-1 rounded-md"
+          className="cursor-pointer hover:bg-[#797ba6] md:text-xl text-xs py-1 rounded-md"
           onClick={() => {
             filterItems("single_family");
           }}
@@ -52,7 +52,7 @@ const Properties = () => {
           single family apartment
         </li>
         <li
-          className="cursor-pointer hover:bg-[#797ba6] px-2 py-1 rounded-md"
+          className="cursor-pointer hover:bg-[#797ba6] md:text-xl text-xs py-1 rounded-md"
           onClick={() => {
             filterItems("multi_family");
           }}

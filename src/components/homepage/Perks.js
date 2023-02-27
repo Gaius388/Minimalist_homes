@@ -25,9 +25,9 @@ const Perks = () => {
             <img
               src={minimumImg1}
               alt="pay"
-              className="p-3 rounded-sm shadow-md mb-2"
+              className="p-1 md:p-3 rounded-sm shadow-md mb-2"
             />
-            <p className="text-xl w-4/6 font-bold capitalize">
+            <p className="text-xs md:text-xl w-4/6 font-bold capitalize">
               Pay as Little as possible!
             </p>
           </div>
@@ -35,9 +35,9 @@ const Perks = () => {
             <img
               src={minimumImg2}
               alt="pay"
-              className="p-3 rounded-sm shadow-md mb-2"
+              className="p-1 md:p-3 rounded-sm shadow-md mb-2"
             />
-            <p className="text-xl w-4/6 font-bold capitalize">
+            <p className="text-xs md:text-xl w-4/6 font-bold capitalize">
               Enjoy wisdom of community!
             </p>
           </div>
@@ -45,9 +45,9 @@ const Perks = () => {
             <img
               src={minimumImg3}
               alt="pay"
-              className="p-3 rounded-sm shadow-md mb-2"
+              className="p-1 md:p-3 rounded-sm shadow-md mb-2"
             />
-            <p className="text-xl w-5/6 font-bold capitalize">
+            <p className="text-xs md:text-xl w-5/6 font-bold capitalize">
               Let's somebody else take care of Landlord!
             </p>
           </div>
@@ -55,9 +55,9 @@ const Perks = () => {
             <img
               src={minimumImg4}
               alt="pay"
-              className="p-3 rounded-sm shadow-md mb-2"
+              className="p-1 md:p-3 rounded-sm shadow-md mb-2"
             />
-            <p className="text-xl w-4/6 font-bold capitalize">
+            <p className="text-xs md:text-xl w-4/6 font-bold capitalize">
               Enjoy peaceful Environment!
             </p>
           </div>
@@ -65,9 +65,9 @@ const Perks = () => {
             <img
               src={minimumImg5}
               alt="pay"
-              className="p-3 rounded-sm shadow-md mb-2"
+              className="p-1 md:p-3 rounded-sm shadow-md mb-2"
             />
-            <p className="text-xl w-4/6 font-bold capitalize">
+            <p className="text-xs md:text-xl w-4/6 font-bold capitalize">
               Stay Safe! Save Money!
             </p>
           </div>
@@ -75,9 +75,9 @@ const Perks = () => {
             <img
               src={minimumImg6}
               alt="pay"
-              className="p-3 rounded-sm shadow-md mb-2"
+              className="p-1 md:p-3 rounded-sm shadow-md mb-2"
             />
-            <p className="text-xl w-4/6 font-bold capitalize">
+            <p className="text-xs md:text-xl w-4/6 font-bold capitalize">
               Pay for what you use !
             </p>
           </div>

@@ -58,13 +58,13 @@ const HomePage = () => {
           <div className="flex flex-col w-full items-center mt-8">
             <img src={mapImage} alt="maps" className="w-4/5" />
             <div className="bg-[#f9f9f9] grid grid-cols-6 items-center text-black w-4/5 p-2 rounded-md mt-4">
-              <select className="bg-transparent border text-sm focus-visible:outline-none p-4 pr-8 col-span-2">
+              <select className="bg-transparent border text-sm focus-visible:outline-none md:p-4 pr-4 md:pr-8 col-span-2">
                 <option value="All Type">All Type</option>
               </select>
-              <select className="bg-transparent border text-sm focus-visible:outline-none p-4 pl-8 col-span-3">
+              <select className="bg-transparent border text-sm focus-visible:outline-none md:p-4 md:pl-8 col-span-3">
                 <option value="Neighbourhood">Neighbourhood</option>
               </select>
-              <CiSearch className="text-5xl bg-blue-200 p-4 rounded-r-md" />
+              <CiSearch className="text-2xl md:text-5xl bg-blue-200 md:p-4 rounded-r-md" />
             </div>
           </div>
         </div>
@@ -72,13 +72,13 @@ const HomePage = () => {
       <Perks />
       <section className="bg-gray-100 my-8 pb-12">
         <div className="pt-8 md:pl-24 pl-8 flex justify-between items-center">
-          <h1 className="text-2xl md:text-3xl font-bold capitalize ">
+          <h1 className="text-sm md:text-3xl font-bold capitalize ">
             <span className="underline decoration-orange-500 decoration-2 underline-offset-4">
               List{" "}
             </span>
             of Properties
           </h1>
-          <button className="p-4 bg-orange-500 rounded-md text-white text-md md:mr-24 mr-4">
+          <button className="p-2 md:p-4 bg-orange-500 rounded-md text-white text-xs md:text-md md:mr-24 mr-4">
             <Link to={"/properties"}>View All Properties</Link>
           </button>
         </div>
@@ -90,7 +90,7 @@ const HomePage = () => {
         {!loading && (
           <div className="flex justify-center">
             <button
-              className="p-2 md:p-4 border-2 border-black-700 shadow-lg md:text-lg text-sm text-orange-500 font-bold rounded-l-xl"
+              className="p-1.5 md:p-4 border-2 border-black-700 shadow-lg md:text-lg text-xs text-orange-500 font-bold rounded-l-xl"
               onClick={prevPage}
             >
               Prev
@@ -98,7 +98,7 @@ const HomePage = () => {
             {data.map((item, index) => {
               return (
                 <button
-                  className={`p-2 md:p-3 border-2 border-black-500 text-orange-500 font-bold shadow-md ${
+                  className={`p-1 md:p-3 border-2 border-black-500 text-orange-500 font-bold shadow-md text-xs md:text-sm ${
                     index === page ? "bg-orange-700" : null
                   }`}
                   onClick={() => handlePage(index)}
@@ -109,7 +109,7 @@ const HomePage = () => {
             })}
 
             <button
-              className="p-2 md:p-4 border-2 border-black-700 shadow-lg md:text-lg text-sm text-orange-500 font-bold rounded-r-xl"
+              className="p-1.5 md:p-4 border-2 border-black-700 shadow-lg md:text-lg text-xs text-orange-500 font-bold rounded-r-xl"
               onClick={nextPage}
             >
               Next

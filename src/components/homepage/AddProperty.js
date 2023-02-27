@@ -2,7 +2,7 @@ import React from "react";
 
 const AddProperty = () => {
   return (
-    <section className="px-8 md:px-24">
+    <section className="px-4 md:px-24">
       <h2 className="capitalize text-center md:text-lg text-md font-bold mb-4">
         Your property with us and be Confident that Your Room will be Filled
         Out!
