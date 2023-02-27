@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Minimalist_homes/static/css/main.99b213f0.css",
-    "main.js": "/Minimalist_homes/static/js/main.3fd2cedc.js",
+    "main.css": "/Minimalist_homes/static/css/main.27536e58.css",
+    "main.js": "/Minimalist_homes/static/js/main.2457de05.js",
     "static/media/background_image.png": "/Minimalist_homes/static/media/background_image.f47204d0cd4ccece6ab4.png",
     "static/media/media bg-cover.png": "/Minimalist_homes/static/media/media bg-cover.00806ea366a50bfb44d2.png",
     "static/media/lounge_img.png": "/Minimalist_homes/static/media/lounge_img.23b1f87080615311e420.png",
@@ -19,11 +19,11 @@
     "index.html": "/Minimalist_homes/index.html",
     "static/media/Vector (3).svg": "/Minimalist_homes/static/media/Vector (3).b2bb9fc7c834ca4bccdbb2b3c8418ea2.svg",
     "static/media/play_btn.svg": "/Minimalist_homes/static/media/play_btn.af354122d4002562643133212099ece5.svg",
-    "main.99b213f0.css.map": "/Minimalist_homes/static/css/main.99b213f0.css.map",
-    "main.3fd2cedc.js.map": "/Minimalist_homes/static/js/main.3fd2cedc.js.map"
+    "main.27536e58.css.map": "/Minimalist_homes/static/css/main.27536e58.css.map",
+    "main.2457de05.js.map": "/Minimalist_homes/static/js/main.2457de05.js.map"
   },
   "entrypoints": [
-    "static/css/main.99b213f0.css",
-    "static/js/main.3fd2cedc.js"
+    "static/css/main.27536e58.css",
+    "static/js/main.2457de05.js"
   ]
 }
